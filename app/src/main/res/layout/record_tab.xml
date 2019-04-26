@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="100dp"
+
+    android:orientation="vertical"
+    tools:context="ekarus.s_attendance.view.MainActivity">
+
+    <Button
+        android:id="@+id/btn1"
+        style="@style/button_style"
+        android:padding="20dp"
+        android:textSize="18sp"
+        android:text="Individual Day Attendance" />
+
+    <Button
+        android:id="@+id/btn2"
+        style="@style/button_style"
+        android:layout_below="@+id/btn1"
+        android:textSize="18sp"
+        android:padding="20dp"
+        android:text="Full Attendance" />
+
+
+</RelativeLayout>

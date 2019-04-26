@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/add_course"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_scrollFlags="scroll"
+    tools:context="ekarus.s_attendance.view.AddCourse">
+
+
+        <EditText
+            android:id="@+id/textInputLayoutSemester"
+            style="@style/editText_style"
+            android:layout_weight=".75"
+            android:hint="@string/semester"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/textInputLayoutCourseCode"
+            style="@style/editText_style"
+            android:layout_weight=".75"
+            android:hint="@string/c_name"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/textInputLayoutCourseName"
+            style="@style/editText_style"
+            android:layout_weight=".75"
+            android:hint="@string/c_code"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/textInputLayoutCourseCredit"
+            style="@style/editText_style"
+            android:layout_weight=".75"
+            android:hint="@string/c_credit"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/button"
+            style="@style/button_style"
+            android:layout_weight="0.20"
+            android:text="UPDATE" />
+
+</LinearLayout>
